@@ -30,7 +30,7 @@ async function scanDynamoRecords(scanParams) {
 }
 
 app.get("/", (req, res) => {
-  res.send("Ruta Raiz nuestra Api Test!!");
+  res.send("Ruta Raiz a nuestra Api Test");
 });
 
 app.get("/api/productos", async (req, res) => {
